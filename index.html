@@ -17,27 +17,29 @@
             <!-- Full Name -->
             <div class="form-group">
                 <label for="name">Full Name</label>
-                <input required type="text" id="name" placeholder="Full Name" minlength="3" maxlength="100">
+                <input required type="text" id="name" name="name" placeholder="Full Name" minlength="3" maxlength="100">
             </div>
             <!-- Phone Number -->
             <div class="form-group">
                 <label for="phone">Phone Number</label>
-                <input required type="tel" id="phone" placeholder="555-555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                <input required type="tel" id="phone" name="phone" placeholder="555-555-5555"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
             </div>
             <!-- Email Address -->
             <div class="form-group">
                 <label for="email">Email Address</label>
-                <input required type="email" id="email" placeholder="Email Address">
+                <input required type="email" id="email" name="email" placeholder="Email Address">
             </div>
             <!-- Website URL -->
             <div class="form-group">
                 <label for="website">Website URL</label>
-                <input required type="url" id="website" placeholder="https://lukelai.tech">
+                <input required type="url" id="website" name="website" placeholder="https://lukelai.tech">
             </div>
             <!-- Password -->
             <div class="form-group">
                 <label for="password1">Password</label>
-                <input required type="password" id="password1" placeholder="Create password (Min. 8 Characters)"
+                <input required type="password" id="password1" name="password"
+                    placeholder="Create password (Min. 8 Characters)"
                     pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
                     title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number.">
             </div>
